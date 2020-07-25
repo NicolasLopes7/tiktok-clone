@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 import { Entypo, Feather, AntDesign } from "@expo/vector-icons";
+import Button from "./components/button";
 import HomeScreen from "./screens/Home";
 
 const Tab = createBottomTabNavigator();
@@ -43,7 +44,7 @@ function Navigation() {
           component={HomeScreen}
           options={{
             title: "",
-            tabBarIcon: ({ size, color }) => null,
+            tabBarIcon: ({ size, color }) => <Button />,
           }}
         />
         <Tab.Screen
