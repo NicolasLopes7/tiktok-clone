@@ -1,0 +1,12 @@
+{
+  "name": "tikTokClone",
+  "displayName": "tikTokClone",
+  "expo": {
+    "name": "tikTokClone",
+    "slug": "tikTokClone",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
